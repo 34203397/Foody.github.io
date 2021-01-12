@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html lang="en">
+<title>Paige’s Nails & Beauty</title>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+  <nav class="navbar navbar-default">
+    <div class="container-center">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="Home.html">Paiges nail & beaity</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="#price">Prices</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="show">
+  <div class="container">
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="IMG_1901.JPG" data-slide-to="0" class="active"></li>
+        <li data-target="IMG_1905.JPG" data-slide-to="1"></li>
+        <li data-target="IMG_1906.JPG" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="IMG_1901-Copy.JPG" alt="PAN">
+        </div>
+        <div class="item">
+          <img src="IMG_1905-Copy.JPG" alt="THING">
+        </div>
+        <div class="item">
+          <img src="IMG_1906-Copy.JPG" alt="STUFF">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="price" class="container-fluid">
+    <h1>Pricing</h1>
+    <blockquote>
+      <h2>Acrylics</h2>
+      For a full set of acrylics varying in a range of different colours.
+      £20<br>
+      Acrylic infills for when you've used up your favorite products.
+      £15<br>
+      If you're thinking about a more natural look or just want them cleaning up acrylic removal.
+      £10<br>
+      Nail art for some cool designs for a special feel.
+      £1<br>
+      <h2>Manicure</h2>
+        Gel/Manicure or pedicure.
+        £15<br>
+        Gel Manicure/Pedicure with soak off
+        £20<br>
+        Gel removal.
+        £10<br>
+        Mini Manicure.
+        £15<br>
+        Mini Pedicure.
+        £15<br>
+      </blockquote>
+      </div>
+  <div class="about text-center">
+    <div class="container-fluid">
+    <h1>About me</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+</div>
+</div>
+    <div class="contact">
+      <div class="container-fluid">
+      <h1>Contact us</h1>
+      <form id="contact-form" method="post" action="contact.php" role="form">
+        <div class="messages"></div>
+
+         <div class="controls">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div class="form-group">
+                         <label for="form_email">Email *</label>
+                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-12">
+                     <div class="form-group">
+                         <label for="form_message">Message *</label>
+                         <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                         <div class="help-block with-errors"></div>
+                     </div>
+                 </div>
+                 <div class="col-md-12">
+                     <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-md-12">
+                     <p class="text-muted">
+                         <strong>*</strong> These fields are required. Contact form template by
+                         <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form" target="_blank">Bootstrapious</a>.</p>
+                 </div>
+             </div>
+         </div>
+    </form>
+    <br>
+    <h2>Or contact us on: 077985145</h2>
+    </div>
+  </div>
+</body>
