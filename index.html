@@ -8,11 +8,14 @@
 <link rel="stylesheet" href="styles.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--Links to external script to add features to the webpage.-->
 <script src="contact.php"></script>
 <script src="contact.js"></script>
 </head>
 <body>
+  <!--Button setup for when you end up further down the page.-->
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <!--Navigation bar setup with some css making it more interactive and adding some code for smooth scrolling-->
   <nav class="navbar navbar-default">
     <div class="container-center">
       <div class="navbar-header">
@@ -26,6 +29,7 @@
       </ul>
     </div>
   </nav>
+  <!--Adding a slide show of image as an initial welcome to the site.-->
 <div class="container1">
   <div id="show" class="container">
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
@@ -48,6 +52,7 @@
     </div>
   </div>
 </div>
+<!--a List of basic prices for available services.-->
   <div id="price" class="container-fluid">
     <h1>Pricing</h1>
     <blockquote>
@@ -73,6 +78,7 @@
         £15<br>
       </blockquote>
       </div>
+      <!--section to give a brief overview of the buisness and making it more personnal-->
     <div id="about" class="container-fluid text-center">
     <h1>About me</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -81,6 +87,7 @@
     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 </div>
+<!--Form setup for contacting the company may be changed as php doesn't work through Github-->
       <div id="contact" class="container-fluid">
       <h1>Contact us</h1>
       <form id="contact-form" method="post" action="contact.php" role="form">
