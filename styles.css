@@ -1,7 +1,7 @@
 body {
   background: #FACCC4;
 }
-.container-inner{
+.carousel-inner{
   height:100%;
   width: 100%;
 }
