@@ -9,24 +9,31 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!--Links to external script to add features to the webpage.-->
-<script src="contact.php"></script>
 <script src="contact.js"></script>
 </head>
 <body>
   <!--Button setup for when you end up further down the page.-->
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <!--Navigation bar setup with some css making it more interactive and adding some code for smooth scrolling-->
-  <nav class="navbar navbar-default">
-    <div class="container-center">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">FoodforYou</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#show">foodies</a>
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#show">Foody</a></li>
-        <li><a href="#price">Prices</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#show">HOME</a></li>
+          <li><a href="#price">Price</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li class="dropdown">
+        </ul>
+      </div>
     </div>
   </nav>
   <!--Adding a slide show of image as an initial welcome to the site.-->
