@@ -17,7 +17,6 @@ body {
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: #f4511e !important;
-  background-color: #fff !important;
 }
 .bg-color{
   background: transparent !important;
