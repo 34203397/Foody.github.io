@@ -10,13 +10,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!--Links to external script to add features to the webpage.-->
 <script src="contact.js"></script>
-<link rel="script" href="contact.js">
 </head>
 <body>
-  <!--Button setup for when you end up further down the page.-->
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
   <!--Navigation bar setup with some css making it more interactive and adding some code for smooth scrolling-->
-  <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-inverse navbar-fixed-top bg-color">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -46,7 +43,7 @@
         <li data-target="IMG_1905.jpg" data-slide-to="1"></li>
         <li data-target="IMG_1906.jpg" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" role="listbox">
         <div class="item active">
           <img src="IMG_1901-Copy.jpg" alt="PAN">
         </div>
@@ -62,7 +59,7 @@
 </div>
 <br>
 <!--a List of basic prices for available services.-->
-  <div id="price" class="container-fluid">
+  <div id="price" class="container-fluid text-center">
     <h1>Pricing</h1>
     <blockquote>
       <h2>Acrylics</h2>
@@ -97,36 +94,10 @@
   </p>
 </div>
 <!--Form setup for contacting the company may be changed as php doesn't work through Github-->
-      <div id="contact" class="container-fluid">
+  <div id="contact" class="container-fluid">
       <h1>Contact us</h1>
-      <form id="contact-form" method="post" action="contact.php" role="form">
-        <div class="messages"></div>
-
-         <div class="controls">
-             <div class="row">
-                 <div class="col-md-6">
-                     <div class="form-group">
-                         <label for="form_email">Your Email</label>
-                         <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                         <div class="help-block with-errors"></div>
-                     </div>
-                 </div>
-             <div class="row">
-                 <div class="col-md-10">
-                     <div class="form-group">
-                         <label for="form_message">Message</label>
-                         <textarea id="form_message" name="message" class="form-control" placeholder="Enter your questions here" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                         <div class="help-block with-errors"></div>
-                     </div>
-                 </div>
-                 <div class="col-md-12">
-                     <input type="submit" class="btn btn-primary btn-send" value="Send message">
-                 </div>
-             </div>
-         </div>
-    </form>
+    <h2>Email: 34203397@Petroc.ac.uk
     <br>
     <h2>Or contact us on: 077985145</h2>
-    </div>
   </div>
 </body>
