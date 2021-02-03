@@ -16,7 +16,7 @@ $(document).ready(function(){
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
       scrollTop: $(hash).offset().top
-    }, 900, function(){
+    }, 1250, function(){
 
       // Add hash (#) to URL when done scrolling (default click behavior)
       window.location.hash = hash;
@@ -24,3 +24,6 @@ $(document).ready(function(){
     } // End if
   });
 })
+//Sourced W3schools
+//Available at:https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_theme_company_smoothscroll&stacked=h
+//Accessed:23/12/2020
